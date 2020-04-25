@@ -4,15 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page With Video Hero</title>
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <main>
       <section class="hero">
-        <p>Video Hero Demonstation</p>
-        <h1>Responsive layouts don't have to be a struggle</h1>
+        <div class="video-content">
+          <video src="Beach Hut.mp4" autoplay muted loop></video>
+        </div>
+        <div class="hero-text">
+          <p>Video Hero Demonstation</p>
+          <h1>Responsive layouts don't have to be a struggle</h1>
+        </div>
+        <div class="hero-audio">
+          <p>Listen to the tranquility</p>
+          <audio src="Sounds Flaggy Rock Morning.mp3" controls autoplay loop />
+        </div>
       </section>
       <section class="quality">
         <h2>Quality Designs</h2>
