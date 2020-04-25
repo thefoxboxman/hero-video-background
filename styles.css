@@ -1,5 +1,10 @@
 /* ############################### MM CSS RESETS ################################### */
-
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;400&display=swap");
+:root {
+  --light-color: #f3eed9;
+  --medium-color: #824936;
+  --dark-color: #222c2a;
+}
 *,
 *::before,
 *::after {
@@ -8,7 +13,84 @@
 
 body {
   margin: 0;
-  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
 }
 
 /* ############################### SITE CSS  ################################### */
+/* SITE WIDE */
+main {
+  width: 90%;
+  max-width: 1128px;
+  margin: 0 auto;
+  text-align: center;
+}
+.row {
+  display: flex;
+}
+
+.col {
+  width: 100%;
+  text-align: left;
+  padding: 0 2em;
+}
+
+.col + .col {
+  margin-left: 2em;
+  padding-left: 0;
+}
+
+/* HERO SECTION */
+.hero {
+  padding: 5em;
+
+  background-color: var(--light-color);
+}
+.hero p {
+  font-family: "Roboto", san-serif;
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: var(--medium-color);
+  margin: 0.3em 0;
+}
+
+.hero h1 {
+  font-family: "Playfair Display";
+  font-weight: 900;
+  font-size: 3rem;
+  color: var(--medium-color);
+  margin: 0;
+  padding: 0 4em;
+}
+
+/* QUALITY SECTION */
+.quality {
+  padding: 5em 0;
+}
+
+.quality h2 {
+  font-family: "Playfair Display";
+  font-weight: 900;
+  font-family: "play";
+  font-size: 2rem;
+  color: var(--medium-color);
+  margin: 0;
+}
+.quality p {
+  font-size: 1rem;
+}
+
+/* CUSTON SECTION */
+
+.custom {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  padding: 3em 0;
+}
+.custom h2 {
+  font-size: 2rem;
+
+  margin: 0;
+}
