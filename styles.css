@@ -94,3 +94,16 @@ main {
 
   margin: 0;
 }
+
+/* CARE SECTION */
+
+.care {
+  background-color: var(--medium-color);
+  color: var(--light-color);
+  padding: 3em 0;
+}
+.care h2 {
+  font-size: 2rem;
+
+  margin: 0;
+}
