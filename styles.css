@@ -91,14 +91,25 @@ main {
   padding: 0 4em;
 }
 
-.hero-audio {
+.hero-audio-content {
   z-index: 12;
   margin-top: 200px;
+  
 }
 
-.hero-audio p {
+.hero-audio-content p {
   color: var(--light-color);
+  font-size:1.2 ;
+  margin: 0.3em;
 }
+audio{
+filter: sepia(20%) saturate(70%) grayscale(1) contrast(50%) invert(12%);
+    width: 200px;
+    height: 25px;
+    cursor: pointer;
+    }
+
+
 /* QUALITY SECTION */
 .quality {
   padding: 5em 0;
